@@ -232,9 +232,9 @@ h6 {
 }
 
 .btn-primary{
-    border-color:#E23F43 ;
-    background: #E23F43;
-    color:#fff ;
+    border-color:#212121 ;
+    background: #212121;
+    color:#fff;
 }
 .btn-primary:hover{
     background:#fff;
@@ -413,7 +413,7 @@ h6 {
 #section-intro{
     height: 100%;
     background-position: 50% 0px;
-    background: #222 url("../images/bg/background1.jpg") no-repeat fixed 50% 50% / cover;
+    background: #222 url("../images/bg/marcosl02.jpg") no-repeat fixed 50% 50% / cover;
     padding: 0px;
     position: relative;
     max-height: 600px;
@@ -993,4 +993,6 @@ ul.work li.active {
     color: #E23F43;
     font-weight: 700;
 }
-
+#gunpla {
+    background: url("../images/bg/gunpla.jpg") no-repeat fixed 50% 50% ;
+}
