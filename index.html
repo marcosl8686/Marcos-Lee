@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>Marcos Lee Portfolio</title>
     <!-- MAIN CSS FILES===================================
-	======================================================= -->
+    ======================================================= -->
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Animation -->
@@ -27,6 +27,12 @@
     <!-- Elegant icon font -->
     <link rel="stylesheet" href="css/line-icons.min.css">
     <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -44,11 +50,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active "><a href="#section-intro" class="page-scroll">Home</a></li>
-                    <li><a class="page-scroll" href="#section-about">About</a></li>
-                    <li><a class="page-scroll" href="#work">portfolio</a></li>
-                    <li><a class="page-scroll" href="#section-edu">Education</a></li>
-                    <li><a class="page-scroll" href="#section-contact">contact</a></li>
+                    <li class="active"><a href="#section-intro" class="page-scroll navBtn">Home</a></li>
+                    <li><a class="page-scroll navBtn" href="#section-about">About</a></li>
+                    <li><a class="page-scroll navBtn" href="#work">portfolio</a></li>
+                    <li><a class="page-scroll navBtn" href="#section-edu">Education</a></li>
+                    <li><a class="page-scroll navBtn" href="#section-contact">contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -64,9 +70,9 @@
                     <div class="intro-caption">
                         <div class="subtitle">Marcos Lee</div>
                         <h1>Web Developer</h1>
-                        <div class="subtitle">creating modern and responsive design for Web and Mobile</div>
                         <div class="btn-container wow fadeInUp">
-                            <a href="resume/marcosleeR.doc.pdf" download="marcosleeR.doc.pdf" class="btn btn-primary ">Resume</a>
+                            <div class="subtitle">Three Reasons Why Marcos is a Great Developer</div>
+                            <a class="btn btn-primary page-scroll" id="findOut" href="#section-about">Click To Find Out</a>
                         </div>
                     </div>
                 </div>
@@ -77,87 +83,90 @@
     </div>
     <!-- section banner end -->
     <!-- section about start -->
+<div id="content1">
     <section id="section-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading text-center">
-                        <h2 class="mid-title">Skills</h2>
-                        <p class="sub-title">Full Stack Web Development</p>
+                        <h2 class="mid-title">Reason #1: He Loves Legos</h2>
+                        <p class="sub-title">Creative Mind</p>
                         <hr>
                     </div>
                 </div>
             </div>
             <!--  row heading end -->
             <div class="row">
-                <div class="col-md-6 col-xs-12 col-sm-6">
-                    <div class="profile">
-                        <img src="images/marcosl01.jpg" alt="profile img" class="img-responsive">
+                <div class="col-md-5 col-xs-12 col-sm-5">
+                    <div class="profile row">
+                        <img src="images/lego.jpg" alt="profile img" class="img-responsive">
+                    </div>
+                    <br><br><br>
+                    <div class="profile row">
+                        <img src="images/lego2.jpeg" alt="profile img" class="img-responsive">
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 ">
+                <div class="col-md-7 col-sm-7 col-xs-12 ">
                     <div class="skills-wrap">
-                        <h4>Browser-Based Technologies</h4>
-                        <div class="skillbar" data-percent="55%">
-                            <div class="skillbar-title">HTML</div>
-                            <div class="skill-bar-percent">80%</div>
-                            <div style="width: 80%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">CSS</div>
-                            <div class="skill-bar-percent">75%</div>
-                            <div style="width: 75%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="40%">
-                            <div class="skillbar-title">BootStrap</div>
-                            <div class="skill-bar-percent">80%</div>
-                            <div style="width: 80%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="60%">
-                            <div class="skillbar-title">Javascript</div>
-                            <div class="skill-bar-percent">70%</div>
-                            <div style="width: 70%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="70%">
-                            <div class="skillbar-title">React.JS</div>
-                            <div class="skill-bar-percent">Learning Soon</div>
-                            <div style="width: 0%;" class="skillbar-bar"></div>
-                        </div>
-                        <h4>Server-Side Development</h4>
-                        <div class="skillbar" data-percent="55%">
-                            <div class="skillbar-title">Node.JS</div>
-                            <div class="skill-bar-percent">70%</div>
-                            <div style="width: 70%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">MERN Stack</div>
-                            <div class="skill-bar-percent">Learning Soon</div>
-                            <div style="width: 0%;" class="skillbar-bar"></div>
-                        </div>
-                        <h4>Data-Base</h4>
-                        <div class="skillbar" data-percent="55%">
-                            <div class="skillbar-title">FireBase</div>
-                            <div class="skill-bar-percent">80%</div>
-                            <div style="width: 80%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">MySQL</div>
-                            <div class="skill-bar-percent">Learning Soon</div>
-                            <div style="width: 0%;" class="skillbar-bar"></div>
-                        </div>
-                        <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">MongoDB</div>
-                            <div class="skill-bar-percent">Learning Soon</div>
-                            <div style="width: 0%;" class="skillbar-bar"></div>
-                        </div>
-                        <h4>Personal Skills</h4>
-                        <div class="skillbar" data-percent="55%">
-                            <ul class="skillbar-title">Trilingual(Fluent)</ul>
-                            <li>English</li>
-                            <li>Spanish</li>
-                            <li>Korean</li>
-                            <div class="skillbar-title">Management & Leadership</div>
-                        </div>
+                        <img src="images/lego.png" alt="profile" class="img-responsive">
+                    </div>
+                </div>
+                <!--  row  end -->
+            </div>
+            <!--  container end -->
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h2 class="mid-title">Reason #2: Gunpla</h2>
+                        <p class="sub-title">Artistic View</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <!--  row heading end -->
+            <div class="row">
+                <div class="col-md-5 col-xs-12 col-sm-5">
+                    <div class="profile row">
+                        <br><br>
+                        <img src="images/gunpla.jpg" alt="profile img" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 ">
+                    <div class="skills-wrap">
+                        <img src="images/gunpla.png" alt="profile" class="img-responsive">
+                    </div>
+                </div>
+                <!--  row  end -->
+            </div>
+            <!--  container end -->
+
+
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h2 class="mid-title">Reason #3: Zelda</h2>
+                        <p class="sub-title">Puzzle Solving</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <!--  row heading end -->
+            <div class="row">
+                <div class="col-md-5 col-xs-12 col-sm-5">
+                    <div class="profile row">
+                        <br><br><br>
+                        <img src="images/link.jpg" alt="profile img" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 ">
+                    <div class="skills-wrap">
+                        <img src="images/zelda.png" alt="profile" class="img-responsive">
                     </div>
                 </div>
                 <!--  row  end -->
@@ -182,7 +191,7 @@
             <ul class="work">
                 <li class="filter" data-filter="all">all</li>
                 <li class="filter" data-filter=".projects">Projects</li>
-                <li class="filter" data-filter=".school-projects">School Projects</li>
+                <li class="filter" data-filter=".school-projects">School Project</li>
             </ul>
             <div class="work-inner" id="portfolio">
                 <div class="row">
@@ -193,7 +202,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="images/portfolio/popcorn1.png" class="img-responsive" alt="PopCornNow">
+                            <img src="images/portfolio/PopCorn.png" class="img-responsive" alt="PopCornNow">
                         </a>
                         <div class="portfolio-caption">
                             <h4>PopCorn Now</h4>
@@ -207,7 +216,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="images/portfolio/api.png" class="img-responsive" alt="">
+                            <img src="images/portfolio/API.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Gif Search</h4>
@@ -221,7 +230,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="images/portfolio/trivia.png" class="img-responsive" alt="">
+                            <img src="images/portfolio/Trivia.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Trivia Game</h4>
@@ -237,7 +246,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="images/portfolio/rpg.png" class="img-responsive" alt="">
+                            <img src="images/portfolio/RPG.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>RPG Game</h4>
@@ -328,9 +337,9 @@
                                 <i class="fa fa-graduation-cap"></i>
                             </div>
                             <div class="about-info-inner">
-                                <p class="year">2017-present</p>
+                                <p class="year">2017-2017</p>
                                 <h5 class="title">University of California Los Angeles</h5>
-                                <p class="inst">An intensive boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js. Night & Weekend Classes</p>
+                                <p class="inst">An intensive boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js</p>
                             </div>
                         </div>
                         <!--about info end -->
@@ -341,7 +350,7 @@
                             <div class="about-info-inner">
                                 <p class="year">2008-2010</p>
                                 <h5 class="title">University of California Irvine</h5>
-                                <p class="inst">Relevant Studies: International Business, Fundamental of Accounting I and II, Analytic Geometry and Calculus I and II, Micro & Macro Economics.</p>
+                                <p class="inst">Relevent class works: International Business, Fundamental of Accounting I and II, Analytic Geometry and Calculus I and II, Micro & Macro Economics.</p>
                             </div>
                         </div>
                     </div>
@@ -351,16 +360,6 @@
                 <div class="col-md-6">
                     <div class="edu-inner exp">
                         <h3>experience</h3>
-                        <div class="about-info wow fadeInRight" data-wow-delay="0s">
-                            <div class="icon">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-                            <div class="about-info-inner">
-                                <p class="year">2017-present</p>
-                                <h5 class="title">Jolie</h5>
-                                <p class="inst">Web Developer</p>
-                                <p>Currently designing Ecommerce Website</p>
-                            </div>
                         <div class="about-info wow fadeInRight" data-wow-delay="0s">
                             <div class="icon">
                                 <i class="fa fa-briefcase"></i>
@@ -406,52 +405,8 @@
         </div>
         <!-- container end -->
     </section>
-    <!-- section education end -->
-    <!-- Section testimonial start -->
-   <!--  <section id="testimonial" class="parallax1">
-        <div class="parallax-overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="carousel slide" id="testimonial-carousel" >
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <h2>My Interests</h2>
-                                    <h4>Gunpla</h4>
-                                    <p>Gundam models, as well as the hobby of assembling and painting them, is known in Japan as Gunpla (ガンプラ Ganpura), a portmanteau of "Gundam plastic model", plastic being the most common material for the retail kits. Since little, i loved making and creating gunpla and until now I am still passionate about creating new things.</p>
-                                </div> 
-                                <div class="item">
-                                    <h2>My Interests</h2>
-                                    <h4>Legos</h4>
-                                    <p>Legos were my favorite toy since i was a kid, I loved the way Legos allowed me to create anything i wanted from houses, cars, animals.. there were no boundries to my imagination. Now i am collecting all the Creator-modular houses series.</p>
-                                </div> 
-                                <div class="item">
-                                    <h2>My Interests</h2>
-                                    <h4>Final Fantasy</h4>
-                                    <p>Final Fantasy is a science fiction and fantasy media franchise created by Hironobu Sakaguchi, and developed and owned by Square Enix. I am a big fan of Final Fantasy, I loved the tactical part of the game and the beautiful and creative stories within each world of Final Fantasy.</p>
-                                </div>
-                                <div class="item">
-                                    <h2>My Interests</h2>
-                                    <h4>Cooking</h4>
-                                    <p>My passion has always been creating new things. Cooking allows me to be creative, I am always trying to cook something new or implementing new ideas to old recipes. My favorite dish its Sukiyaki.</p>
-                                    <br>
-                                  
-                                </div>
-                            </div> <
-            
-                            <ol class="carousel-indicators">
-                                <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-                                <li data-target="#testimonial-carousel" data-slide-to="2"> </li>
-                                <li data-target="#testimonial-carousel" data-slide-to="3"> </li>
-                            </ol>
-                        </div> 
-                    </div>
-                </div> 
-            </div> 
-    </section> -->
-    <!-- section testimonial end -->
-    <!-- section contact start -->
+    </div>
+  
     <section id="section-contact">
         <div class="container">
             <div class="row">
@@ -472,7 +427,8 @@
                     </div>
                     <div class="col-sm-4 contact-item">
                         <span class="icon-map-pin"></span>
-                        <p> Cypress, CA </p>
+                        <p>4423 Casa Grande circle APT#205, Cypress,
+                            <br>CA 90630</p>
                     </div>
                     <div class="col-sm-4 contact-item">
                         <span class="icon-envelope"></span><a href="mailto:marcosl8686@gmail.com" target="_blank">marcosl8686@gmail.com</a>
@@ -514,7 +470,6 @@
                             <li><a href="https://www.linkedin.com/in/marcos-lee-9a0a8959/"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://github.com/marcosl8686"><i class="fa fa-github"></i></a></li>
                             <li><a href="resume/marcosleeR.doc.pdf" download="marcosleeR.doc.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
-           
                         </ul>
                         <p class="copy">Marcos Lee &copy; 2017</p>
                     </div>
@@ -779,6 +734,8 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/theme.js"></script>
+    <script type="text/javascript" src="asset/javascript/jquery.js"></script>
+    <script type="text/javascript" src="asset/javascript/script.js"></script>
 </body>
 
 </html>
