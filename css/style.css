@@ -266,7 +266,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 50;
+    z-index: 2000;
     top: 0;
     left: 0;
     background-color: rgba(79,79,79,.8);
@@ -302,6 +302,13 @@
 }
 #menu {
   position: absolute;
-  z-index: 22222;
+  z-index: 100;
+}
+.portImg {
+    box-shadow: 5px 5px 2px grey;
 }
 
+.img-centered {
+    margin-right: auto;
+    margin-left: auto;
+}
