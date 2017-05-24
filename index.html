@@ -162,6 +162,21 @@
             <div class="work-inner" id="portfolio">
                 <div class="row">
                     <div class="col-md-4 col-sm-6 portfolio-item mix single-portfolio projects">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/portfolio/jolie.png" class="img-responsive  portImg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Jolie</h4>
+                            <p class="text-muted">This wholesale clothing website has been built for a live client, Jolie</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item mix single-portfolio projects">
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -190,21 +205,6 @@
                             <p class="text-muted">Intro to Handlebars and MVC architectural pattern</p>
                         </div>
                     </div>
-
-                    <div class="col-md-4 col-sm-6 portfolio-item mix single-portfolio school-projects">
-                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="images/portfolio/bamazon.png" class="img-responsive  portImg" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Bamazon</h4>
-                            <p class="text-muted">Intro to MySQL</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row">
@@ -225,17 +225,17 @@
                     </div>
 
                      <div class="col-md-4 col-sm-6 portfolio-item mix single-portfolio school-projects">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="images/portfolio/liri.png" class="img-responsive  portImg" alt="">
+                            <img src="images/portfolio/bamazon.png" class="img-responsive  portImg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Liri App</h4>
-                            <p class="text-muted">Intro to Node.js</p>
+                            <h4>Bamazon</h4>
+                            <p class="text-muted">Intro to MySQL</p>
                         </div>
                     </div>
 
@@ -343,6 +343,18 @@
                 <div class="col-md-6">
                     <div class="edu-inner exp">
                         <h3>experience</h3>
+                        <div class="about-info wow fadeInRight" data-wow-delay="0s">
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <div class="about-info-inner">
+                                <p class="year">2017-present</p>
+                                <h5 class="title">Jolie</h5>
+                                <p class="inst">Web Developer - Freelance Project</p>
+                                <p>Developing and Designing website based on client’s needs.</p>
+                                <p>Utilized Knowledge of Javascript, HTML, DOM and CSS to deliver advanced user experience.</p>
+                            </div>
+                        </div>
                         <div class="about-info wow fadeInRight" data-wow-delay="0s">
                             <div class="icon">
                                 <i class="fa fa-briefcase"></i>
@@ -780,19 +792,27 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
     <!-- Project Details Go Here -->
-                                <h2>Liri</h2>
-                                <p class="item-intro text-muted">Intro to Node.js</p>
-                                <img class="img-responsive img-centered" src="images/portfolio/liri.gif" alt="Trivia">
+                                <h2>Jolie</h2>
+                                <p class="item-intro text-muted">Testing Page for Jolie Fashion</p>
+                                <img class="img-responsive img-centered" src="images/portfolio/jolie.gif" alt="jolie">
                                 <ul class="hideDot">
-                                    <h3>LIRI, a command line node app that takes in parameters and gives you back data.</h3>
-                                    <li>Created node application that access multiple APIs</li>
+                                    <h3>Description on how to use the app</h3>
+                                    <li>This wholesale clothing website has been built for a live client, Jolie. The purpose is three-fold: 1) new customers can register to become an authorized customer, 2) authorized customers can view the brand's items and create sales orders, and 3) the admin can authorize new customers, add/delete items, and view sales orders.</li>
                                 </ul>
                                 <ul class="hideDot">
                                     <h3>Technologies Used</h3>
-                                    <li>Node.js</li>
-                                    <li>Node Packages</li>
+                                    <li>HTML/CSS/Bootstrap to create layout that will be aestetically pleasing to both live client and his customers</li>
+                                    <li>Handlebars to generate different layouts based on which page user is directed to</li>
+                                    <li>JavaScript/jQuery to dynamically update HTML based on user input</li>
+                                    <li>Node.js to control server.js APIs and routing</li>
+                                    <li>Express.js as server framework</li>
+                                    <li>Sequelize to set up database in node.js</li>
+                                    <li>Passport.js to authenticate users</li>
+                                    <li>Multer for uploading files</li>
+                                    <li>Nodemailer to send emails</li>
                                 </ul>
-                                <a href="https://github.com/marcosl8686/liri-node-app" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://jolie-wholesale.herokuapp.com/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
+                                <a href="https://github.com/coolcat-310/FashionStore" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -824,5 +844,4 @@
     <script type="text/javascript" src="asset/javascript/typing2.js"></script>
     <script type="text/javascript" src="asset/javascript/typing3.js"></script>
 </body>
-
 </html>
