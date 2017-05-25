@@ -151,7 +151,7 @@ var marcos = {
 		language: ["Spanish","Korean","English"],
 		fastLearner: "enthusiastic about gaining knowledge and new insights",
 		highlyMotivated: "assertive individual who takes initiative with minimal supervision",
-		leadership: "recognized by various employers. Achived manager position in every job he worked for"
+		leadership: "recognized by various employers. Achieved manager position in every job he worked for"
 
 	}
 	
